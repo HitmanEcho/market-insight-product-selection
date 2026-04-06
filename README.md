@@ -1,23 +1,19 @@
-# market-insight-product-selection
+# 🚀 功能概述
+该功能采用严谨的多源数据验证法，对产品商机与市场趋势进行专业评估。系统会整合来自 YouTube、Reddit、TikTok、谷歌趋势、亚马逊畅销榜及电商平台的各类信号，再通过用户心声分析挖掘高频痛点与潜在机会。最终基于需求增长势头、趋势持续性、竞争空白空间与用户情感倾向，给出明确的**可入场 / 谨慎入场 / 不可入场**结论，而非单纯追逐热点炒作。
 
-## 简介
+# 👥 适用人群
+- 产品研究员：判断某一趋势是真实市场需求，还是仅社交媒体热度。
+- 品类经理：在投入采购或库存预算前，分析市场机会可行性。
+- 竞品分析师：通过用户反馈规律，挖掘竞品布局中的空白缺口。
 
-Adaptive product-selection methodology built on multi-source signals and "voice of customer" (VoC): validate demand, momentum, competitive intensity, and user pain points from reviews/comments to produce a confident shortlist or a focused go/no-go. **When to use**: - User is asking about trends/popularity (Tiktok/Amazon/etc.), or what's selling well in a market (US/UK/etc.) - User asks for **single-category / single-product** trend analysis - User wants market analysis, market research, or competitive landscape insights - User is researching consumer preferences, demand patterns, or market dynamics - User needs help deciding what products to sell, source, or invest in - User is exploring product opportunities, winning products, or profitable niches Complete this in four steps: 1. Demand & Scope (clarify market, timeframe, constraints) 2. Signal Aggregation (multi-source signals (social media/retail platform/general web/etc.) + VoC) 3. Adaptive Evaluation (route by scenario + scorecard) 4. Recommendation & Action Guide (what to do next)
+# 💬 示例提问
+可向 Accio 进行如下提问：
+- “‘环保水杯’这一趋势是否真实？请展示多平台数据依据。”
+- “当前家居装饰品类在TikTok上有哪些热门产品？哪些具备长期生命力？”
+- “评估这3款备选产品，分析哪一款市场机会最优。”
 
-## 本 Skill 能帮你解决的问题
-
-- 需要从竞品/自家商品的评论里提炼卖点、痛点与迭代方向时
-- 需要写证券/公司研究、估值与投资建议类输出时
-- 需要分析销售对话、预估成交概率或优化跟进话术时
-
-## 使用方式（Cursor）
-
-将本仓库克隆或下载后，把包含 `SKILL.md` 的目录放入：
-
-- 项目级：`<项目>/.cursor/skills/market-insight-product-selection/`
-- 用户级：`~/.cursor/skills/market-insight-product-selection/`
-
-在 Cursor 对话中通过描述该 Skill 的用途即可触发（具体取决于 `SKILL.md` 的 `description` 字段）。
-
----
-本 README 由 `publish_skills.py` 根据 `SKILL.md` 元信息自动生成，可按需修改。
+# 📦 交付成果
+- **趋势候选池（10–30 个）**：涵盖所有目标候选产品，附带趋势信号、用户心声主题、价格区间及竞品案例。
+- **优选推荐（3–8 个）**：按定制评分模型综合排序（需求增速 30%、趋势持续性 20%、竞争缺口/用户反馈 30%、渠道适配度 20%）。
+- **深度证据包**：针对每个优选产品，提供趋势解读、产品规格、定价、竞品分析，以及2–3条高频用户反馈及出现频次（如：“20条评价中有7条提及耐用性问题”）。
+- **最终建议**：给出可入场 / 谨慎入场 / 不可入场的明确结论，附带后续执行步骤，并标注数据缺失项。
