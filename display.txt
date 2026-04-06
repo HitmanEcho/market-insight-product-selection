@@ -1,0 +1,5 @@
+[
+  {"type":"mcms_key","key":"name","value":"Accio.OfficialSkillsName.MarketInsightProductSelection"},
+  {"type":"mcms_key","key":"overview","value":"Accio.OfficialSkillsOverview.MarketInsightProductSelection"},
+  {"type":"mcms_key","key":"skill_description","value":"Accio.OfficialSkillsDes.MarketInsightProductSelection"}
+]
